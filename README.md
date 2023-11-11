@@ -50,6 +50,19 @@ librobotcontrol installation:
 sudo apt install librobotcontrol
 ```
 
-I didn't succeed to run motors 1 and 2 by Adafruit because of some conflicts, I need to figure it out.
+I didn't succeed to run motors 1 and 2 by Adafruit because of some GPIO conflicts, I need to figure it out.
 
 librobotcontrol runs everything just fine
+
+# Tests
+
+BBIO:
+```
+sudo python Adafruit_bbio/test.py
+```
+Librobotcontrol:
+```
+sudo rc_test_motors -m 3 -d 0.5
+sudo rc_test_servos -c 1 -s 1.4 0.0
+```
+
