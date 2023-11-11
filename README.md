@@ -12,7 +12,9 @@ Boot BBBlue fromSD card.
 Connect to BBBlue via the COM port (115200 baudrate) or ssh to USB network (192.168.7.2)
 
 Grow partition to fill all available space:
+```
 sudo /opt/scripts/tools/grow_partition.sh
+```
 
 Reboot
 
@@ -44,4 +46,5 @@ sudo apt install librobotcontrol
 ```
 
 I didn't succeed to run motors 1 and 2 by Adafruit because of some conflicts, I need to figure it out.
+
 librobotcontrol runs everything just fine
