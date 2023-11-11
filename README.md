@@ -5,7 +5,7 @@ Hardware control using beaglebone blue
 
 Download the latest console image from https://rcn-ee.net/rootfs/bb.org/testing/
 
-The name should contain bone...debian...console-armhf
+The name should contain bone...debian...console-armhf...
 
 Flash image onto SD card.
 
