@@ -9,7 +9,7 @@ The name should contain bone...debian...console-armhf
 
 Flash image onto SD card.
 
-Boot BBBlue fromSD card.
+Boot BBBlue from SD card.
 
 Connect to BBBlue via the COM port (115200 baudrate) or ssh to USB network (192.168.7.2)
 
