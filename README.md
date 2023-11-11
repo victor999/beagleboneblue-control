@@ -42,3 +42,6 @@ librobotcontrol installation:
 ```
 sudo apt install librobotcontrol
 ```
+
+I didn't succeed to run motors 1 and 2 by Adafruit because of some conflicts, I need to figure it out.
+librobotcontrol runs everything just fine
